@@ -16,5 +16,17 @@ namespace WindowsForms
         {
             InitializeComponent();
         }
+
+        private void Principal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            var form = new frmPoupanca();
+            form.ShowDialog();
+            
+        }
     }
 }
