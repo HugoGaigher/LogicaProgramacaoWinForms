@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modulo", "Modulo", "{F15768
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SenaiApp.Modulo.Windows", "Modulo\SenaiApp.modulo.windows\SenaiApp.Modulo.Windows.csproj", "{ABC59C5E-6E5A-48D1-9711-A9A3AC8FC1E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "Modulo\WindowsForms\WindowsForms.csproj", "{111082D8-AD1A-4AC1-BE96-86880AF881AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{ABC59C5E-6E5A-48D1-9711-A9A3AC8FC1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ABC59C5E-6E5A-48D1-9711-A9A3AC8FC1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ABC59C5E-6E5A-48D1-9711-A9A3AC8FC1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{111082D8-AD1A-4AC1-BE96-86880AF881AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{111082D8-AD1A-4AC1-BE96-86880AF881AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{111082D8-AD1A-4AC1-BE96-86880AF881AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{111082D8-AD1A-4AC1-BE96-86880AF881AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{ABC59C5E-6E5A-48D1-9711-A9A3AC8FC1E2} = {F15768F8-5C1F-472F-AC0E-FEFB62B38F0A}
+		{111082D8-AD1A-4AC1-BE96-86880AF881AD} = {F15768F8-5C1F-472F-AC0E-FEFB62B38F0A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {4069FF1D-FC48-4FCE-9E05-C248D79043F7}
