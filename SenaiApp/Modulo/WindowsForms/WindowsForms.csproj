@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmPagamentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPagamentos.Designer.cs">
+      <DependentUpon>frmPagamentos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmPoupanca.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmPagamentos.resx">
+      <DependentUpon>frmPagamentos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmPoupanca.resx">
       <DependentUpon>frmPoupanca.cs</DependentUpon>
     </EmbeddedResource>
@@ -68,18 +77,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -100,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\undraw_digital_currency_qpak.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\savings_FILL0_wght400_GRAD0_opsz48 %281%291.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

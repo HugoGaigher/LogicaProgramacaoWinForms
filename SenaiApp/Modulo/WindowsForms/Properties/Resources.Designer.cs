@@ -73,46 +73,6 @@ namespace WindowsForms.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap borda_arredondada_png___Fundo_transparente_grátis {
-            get {
-                object obj = ResourceManager.GetObject("borda arredondada png - Fundo transparente grátis", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap download__1_ {
-            get {
-                object obj = ResourceManager.GetObject("download (1)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap encosta {
-            get {
-                object obj = ResourceManager.GetObject("encosta", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap moldura {
-            get {
-                object obj = ResourceManager.GetObject("moldura", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap payments_FILL0_wght400_GRAD0_opsz48 {
             get {
                 object obj = ResourceManager.GetObject("payments_FILL0_wght400_GRAD0_opsz48", resourceCulture);
@@ -126,6 +86,16 @@ namespace WindowsForms.Properties {
         internal static System.Drawing.Bitmap savings_FILL0_wght400_GRAD0_opsz48__1_ {
             get {
                 object obj = ResourceManager.GetObject("savings_FILL0_wght400_GRAD0_opsz48 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap savings_FILL0_wght400_GRAD0_opsz48__1_1 {
+            get {
+                object obj = ResourceManager.GetObject("savings_FILL0_wght400_GRAD0_opsz48 (1)1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
